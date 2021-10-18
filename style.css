@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.content {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.content h3 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: 500;
+  margin: 50px 0px;
+  font-size: 28px;
+}
+.content h3 span {
+  color: green;
+}
+.content h1 {
+  font-weight: bold;
+  display: inline-block;
+  width: 70%;
+  font-size: 48px;
+  text-transform: capitalize;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+.content p {
+  width: 70%;
+  line-height: 30px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+.content form {
+  width: 70%;
+  margin-bottom: 10px;
+  display: inline;
+}
+.content form input[type="email"] {
+  border: none;
+  background-color: gainsboro;
+  padding: 15px;
+  width: 65%;
+  border-radius: 5px;
+  color: #ae703d;
+}
+.content form input[type="submit"] {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #448560;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: capitalize;
+  line-height: 1.5em;
+}
+.content form input[type="email"]::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ae703d;
+}
+.nav-img {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff5ae;
+  float: right;
+}
+.nav-img img {
+  width: 400px;
+}
+.content .logo {
+  height: 140px;
+}
+.content .logo img {
+  width: 50px;
+  margin-top: 37px;
+}
+.content .content-child {
+  padding-left: 40px;
+}
+span.par {
+  color: #83868d;
+  margin-top: 10px;
+}
+.nav-img .navigation {
+  height: 140px;
+  text-align: center;
+}
+.nav-img .navigation ul {
+  display: inline-block;
+}
+.nav-img .navigation ul li {
+  float: left;
+  margin-right: 50px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 200;
+  line-height: 140px;
+}
+.nav-img .navigation ul li a {
+  color: #453237;
+  padding: 10px;
+}
+.nav-img .navigation .sign a {
+  padding: 10px;
+  background-color: #448560;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 200;
+}
+.nav-img {
+  height: 100vh;
+}
+.nav-img img {
+  width: 675px;
+}
+.nav-img .navigation ul .sign {
+  margin-right: 0px;
+}
